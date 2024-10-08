@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import com.example.mycomposecomponents.uix.components.InfiniteAnimation
 
 @Composable
 fun MainScreen() {
@@ -13,6 +14,6 @@ fun MainScreen() {
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center // İçeriği merkeze hizala
     ) {
-
+        InfiniteAnimation() // InfiniteAnimation composable'ı burada çağrılıyor
     }
 }
