@@ -14,6 +14,6 @@ fun MainScreen() {
         modifier = Modifier.fillMaxSize(),
         contentAlignment = Alignment.Center // İçeriği merkeze hizala
     ) {
-        InfiniteAnimation() // InfiniteAnimation composable'ı burada çağrılıyor
+        DraggableBallScreen() // InfiniteAnimation composable'ı burada çağrılıyor
     }
 }
